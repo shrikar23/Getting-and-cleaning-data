@@ -71,7 +71,7 @@ run_analysis <- function() {
   ##-------------------------------------STEP 6----------------------------------
   print("Writing the final data set...")
   #Write the final tide data set to the file TideDataset.txt.
-  write.table(CleanData, "UCI HAR Dataset/TideDataset.txt", row.name = FALSE)
+  write.table(CleanData, "TideDataset.txt", row.name = FALSE)
   print("write complete")
 }
 
