@@ -1,5 +1,12 @@
 # Getting-and-cleaning-data
-## Objective
+## Data Munging on UCI Human activity Recognition Data
+
+## Overview
+The data set refers to the data collected from the accelerometer of a Samsung Galaxy S smartphone with the intent of capturing details about human activity. It represents the activity performed by a group of 30 volunteers within an age bracket of 19-48 years. The data set has been randomly partitioned into two data sets named Test and Training data sets respectively. 
+
+The objective of the project was to merge the data sets, perform some computations and merge the results back to create a final tidy data set. The original data sets contained 561 features for each subject and activity type. The measurements for the mean and standard deviation were extracted and the overall average of each variable was calculated. The results of these computations were merged back into the final tidy data set.
+
+## Objectives
 The objective is to create a R script which will do the below mentioned processing
 
 1. Merges the training and the test sets to create one data set
